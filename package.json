@@ -1,0 +1,25 @@
+{
+    "name": "dry",
+    "displayName": "dry",
+    "description": "dry language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "dry",
+            "aliases": ["dry", "dry"],
+            "extensions": [".dry"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dry",
+            "scopeName": "source.dry",
+            "path": "./syntaxes/dry.tmLanguage.json"
+        }]
+    }
+}
